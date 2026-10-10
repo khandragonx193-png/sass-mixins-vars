@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+h1 {
+  font-size: 32px;
+  color: #222;
+  margin: 0 0 0.5em 0;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 28px;
+  color: #222;
+  margin: 0 0 0.5em 0;
+  font-weight: 700;
+}
+
+.button {
+  background: red;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.25s ease, transform 0.2s ease;
+}
+.button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+.button:active {
+  transform: translateY(0);
+}
+
+.button--secondary {
+  background: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.25s ease, transform 0.2s ease;
+}
+.button--secondary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+.button--secondary:active {
+  transform: translateY(0);
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/*# sourceMappingURL=styles.css.map */

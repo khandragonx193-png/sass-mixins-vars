@@ -1,0 +1,15 @@
+// ============================================
+// COMPONENTS - BUTTONS
+// ============================================
+
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+.button {
+  @include button-style($primary-color);
+}
+
+// Ví dụ mở rộng: button secondary
+.button--secondary {
+  @include button-style(#3498db);
+}

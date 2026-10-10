@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mixins & Variables - Tối ưu CSS với SASS</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Tiêu đề H1 (32px)</h1>
+  <h2>Tiêu đề H2 (28px)</h2>
+
+  <div class="card">
+    <h2>Card Component</h2>
+    <p>Card được tạo bằng mixin <code>box-style</code>. Chỉ cần thay đổi biến là toàn bộ giao diện cập nhật.</p>
+    <button class="button">Nút Primary (red)</button>
+    <button class="button--secondary" style="margin-left: 10px;">Nút Secondary</button>
+  </div>
+
+  <div class="card" style="margin-top: 20px;">
+    <h2>Lợi ích của Variables & Mixins</h2>
+    <ul>
+      <li>Đổi màu chỉ cần sửa <code>$primary-color</code></li>
+      <li>Đổi font-size chỉ cần sửa <code>$font-large</code> / <code>$font-medium</code></li>
+      <li>Style button tái sử dụng qua <code>@include button-style</code></li>
+      <li>Style card tái sử dụng qua <code>@include box-style</code></li>
+    </ul>
+  </div>
+</body>
+</html>

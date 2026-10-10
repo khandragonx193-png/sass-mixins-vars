@@ -1,0 +1,22 @@
+// ============================================
+// BASE - TYPOGRAPHY
+// ============================================
+
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+body {
+  font-family: $font-stack;
+  color: $text-color;
+  margin: 0;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+h1 {
+  @include heading-style($font-large);
+}
+
+h2 {
+  @include heading-style($font-medium);
+}
